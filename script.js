@@ -10,7 +10,7 @@ const loading = document.getElementById('loading');
 
 
 const currentYear = new Date().getFullYear();
-const newYearTime = new Date(`January 15 ${currentYear + 15} 00:00:00`);
+const newYearTime = new Date(`January 01 ${currentYear + 15} 00:00:00`);
 year.innerText = currentYear + 1;
 
 function updateCountdown(){
